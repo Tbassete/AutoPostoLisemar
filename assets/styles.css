@@ -1,0 +1,101 @@
+/* #F7CB01  amarelo*/
+/* #0141B5 azul */
+
+*{
+padding: 0px;
+margin: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(2019-11-22-indy-car.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color:#F7CB01;
+    color:#0141B5;
+    
+    
+    height: 100px;
+
+    & svg{
+        height: 40px;
+    }
+
+    & h2{
+        font-size: 15px;
+    }
+}
+
+main{
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h1{
+        color: #0141B5;
+    }
+
+ 
+}
+
+section{
+    width: 600px;
+    height: 600px;
+    background-color: #1310102c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    backdrop-filter:  blur(20px);
+
+    & input{
+        
+        font-weight: bolder;
+    }
+
+    & #bomba{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #0141B5;
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        border-color: #F7CB01;
+        
+    }
+
+    & #litros{
+        width: 80px;
+        background-color: rgba(255, 255, 255, 0);
+        border-color: #0141B5;
+        border-top: #0141B5;
+        border-left: #0141B5;
+        border-right: #0141B5;
+        color: #ffffff;
+       
+    }
+
+    & #imgBomba{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        /* box-shadow: 2px 2px 2px 1px white; */
+        /* filter: drop-shadow(1px 1px 1px #F7CB01); */
+    }
+}
